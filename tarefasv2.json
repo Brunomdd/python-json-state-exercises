@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "tarefas": "Acordar no horário planejado",
+        "concluido": true
+    },
+    {
+        "id": 2,
+        "tarefas": "Arrumar a cama",
+        "concluido": true
+    },
+    {
+        "id": 3,
+        "tarefas": "Higiene pessoal",
+        "concluido": false
+    },
+    {
+        "id": 4,
+        "tarefas": "Tomar café da manhã",
+        "concluido": false
+    },
+    {
+        "id": 5,
+        "tarefas": "Revisar metas do dia",
+        "concluido": false
+    },
+    {
+        "id": 6,
+        "tarefas": "Responder mensagens importantes",
+        "concluido": false
+    }
+]
