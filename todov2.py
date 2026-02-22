@@ -1,3 +1,108 @@
+#📝 Enunciado – Sistema To-Do List com Persistência em JSON (Python)
+
+#Desenvolva um sistema de Lista de Tarefas (To-Do List) utilizando a linguagem Python, que funcione no terminal e permita ao usuário gerenciar suas tarefas de forma simples e organizada.
+
+#O sistema deverá possuir as seguintes funcionalidades:
+
+#✅ 1. Adicionar tarefa
+
+#O usuário deve informar:
+
+#Um ID numérico inteiro positivo (não pode ser repetido).
+
+#A descrição da tarefa (não pode estar vazia).
+
+#Cada tarefa deve conter:
+
+#id
+
+#tarefas (descrição)
+
+#concluido (status booleano: True ou False)
+
+#O sistema deve impedir:
+
+#IDs duplicados
+
+#IDs negativos ou zero
+
+#Campos vazios
+
+#As tarefas devem ser salvas automaticamente em um arquivo JSON.
+
+📋# 2. Listar tarefas
+
+#O sistema deve exibir todas as tarefas cadastradas.
+
+#Para cada tarefa, deve mostrar:
+
+#ID
+
+#Descrição
+
+#Status:
+
+#PENDENTE
+
+#CONCLUÍDA
+
+#Caso não existam tarefas cadastradas, o sistema deve informar ao usuário.
+
+#✔️ 3. Concluir tarefa
+
+#O usuário deve informar o ID da tarefa que deseja concluir.
+
+#O sistema deve:
+
+#Marcar a tarefa como concluída.
+
+#Impedir que uma tarefa já concluída seja marcada novamente.
+
+#Informar caso o ID não exista.
+
+#Após a alteração, os dados devem ser atualizados no arquivo JSON.
+
+#💾 4. Persistência de dados
+
+#As tarefas devem ser armazenadas no arquivo tarefasv2.json.
+
+#Ao iniciar o programa:
+
+#Se o arquivo existir, os dados devem ser carregados.
+
+#Se não existir ou estiver corrompido, o sistema deve iniciar com uma lista vazia.
+
+#O programa deve utilizar o módulo json para leitura e escrita dos dados.
+
+#🧠 5. Tratamento de erros
+
+#O sistema deve:
+
+#Validar entradas numéricas.
+
+#Tratar exceções como:
+
+#ValueError
+
+#FileNotFoundError
+
+#JSONDecodeError
+
+#Garantir que o programa não encerre inesperadamente por erro do usuário.
+
+📌# 6. Menu Interativo
+
+#O sistema deve apresentar um menu com as seguintes opções:
+
+#1 - Adicionar tarefa
+#2 - Listar tarefas
+#3 - Concluir tarefa
+#4 - Sair
+
+#O programa deve continuar executando até o usuário escolher sair.
+
+
+
 import json
 
 
