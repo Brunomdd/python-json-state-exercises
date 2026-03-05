@@ -1,0 +1,52 @@
+[
+    {
+        "nome": "Iphone 15",
+        "preço": 3913.0,
+        "estoque": 10
+    },
+    {
+        "nome": "Smart TV",
+        "preço": 2550.0,
+        "estoque": 30
+    },
+    {
+        "nome": "Notebook Dell",
+        "preço": 4200.0,
+        "estoque": 15
+    },
+    {
+        "nome": "Airpods Pro",
+        "preço": 1899.0,
+        "estoque": 25
+    },
+    {
+        "nome": "Mouse Logitech",
+        "preço": 299.0,
+        "estoque": 50
+    },
+    {
+        "nome": "Teclado Mecânico",
+        "preço": 450.0,
+        "estoque": 40
+    },
+    {
+        "nome": "Monitor LG 24'",
+        "preço": 1200.0,
+        "estoque": 20
+    },
+    {
+        "nome": "SSD 1TB",
+        "preço": 380.0,
+        "estoque": 60
+    },
+    {
+        "nome": "Headset Gamer",
+        "preço": 599.0,
+        "estoque": 35
+    },
+    {
+        "nome": "Webcam Full HD",
+        "preço": 249.0,
+        "estoque": 45
+    }
+]
